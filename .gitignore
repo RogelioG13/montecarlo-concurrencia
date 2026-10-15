@@ -1,0 +1,79 @@
+# ==========================================
+# Archivos compilados de Java
+# ==========================================
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Carpetas de salida de compilación estándar
+bin/
+out/
+build/
+target/
+
+# Logs de errores fatales de la JVM
+hs_err_pid*
+replay_pid*
+
+# ==========================================
+# IDEs y Editores de Código
+# ==========================================
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
+.history/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ==========================================
+# Gestores de dependencias (por si usas Maven o Gradle)
+# ==========================================
+.gradle/
+.mvn/
+mvnw
+mvnw.cmd
+gradlew
+gradlew.bat
+
+# ==========================================
+# Archivos del Sistema Operativo
+# ==========================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+*.stackdump
+[Dd]esktop.ini
+
+# Linux
+*~
+.directory
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
